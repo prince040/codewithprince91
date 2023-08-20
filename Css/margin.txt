@@ -1,0 +1,16 @@
+<p>
+@media screen and (max-width: 876px) {
+    .mainContent{
+        display: block;
+    }
+    .topicView{
+        width: 100%;
+    }
+    .alltopics{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px; 
+    }
+}
+</p>

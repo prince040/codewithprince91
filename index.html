@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <title>learn coding</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-loader">
+            <div class="dot-wave">
+                <div class="dot-wave__dot"></div>
+                <div class="dot-wave__dot"></div>
+                <div class="dot-wave__dot"></div>
+                <div class="dot-wave__dot"></div>
+              </div>
+               
+        </div>
+
+        <header>
+            <div class="navbar">
+             <div class="logo-bars">
+                <i class="fa-solid fa-bars-staggered fa-bars" ></i>
+                <h3 id="logo">CodeWithPrince</h3>
+             </div>
+            </div>
+        </header>
+        <div class="content">
+
+           <div class="topics">
+            <button class="topic-button" id="Html">HTML</button>
+            <button class="topic-button" id="Css">CSS</button>
+            <button class="topic-button" id="JavaScript">JavaScript</button>
+            <button class="topic-button" id="Jquery">Jquery</button>
+            <button class="topic-button" id="Bootstrap">Bootstrap</button>
+            <button class="topic-button" id="React-js">React.JS</button>
+            <button class="topic-button" id="MongoDB">MongoDB</button>
+            <button class="topic-button" id="Node-js">Node.js</button>
+            <button class="topic-button" id="Express-js">Express.js</button>
+           </div>
+
+           <div class="mainContent">
+            <div class="topicView">
+               
+                <div class="viewer">
+
+                    <h2 id="topic_name"></h2>
+                    <pre id="display_syn">
+
+                    </pre> 
+
+             
+                       
+
+                </div>
+
+            </div>
+
+            <div class="alltopics">
+                <input type="text" id="search">
+                <h3 id="subject">HTML</h3>
+                <div class="loader" id="loader">
+                    <div class="dot-wave">
+                       <div class="dot-wave__dot"></div>
+                       <div class="dot-wave__dot"></div>
+                       <div class="dot-wave__dot"></div>
+                       <div class="dot-wave__dot"></div>
+                     </div>
+                   </div>
+          
+                <ul id="ul">
+
+                </ul>
+
+            </div> 
+         
+           </div>
+
+
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+    <!-- <script type="module" src="other.js"></script> -->
+
+    <script>
+        let mainLoader = document.getElementsByClassName("main-loader")[0];
+        let body = document.getElementsByTagName('body')[0];
+    body.onload = ()=>{
+        mainLoader.style.display = "none"
+    }
+       
+    </script>
+</body>
+</html>
+
+

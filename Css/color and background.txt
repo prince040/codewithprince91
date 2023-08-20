@@ -1,0 +1,18 @@
+
+if you want to text color style and background 
+color set in your web pase then you use this Property.
+
+for text color :
+Ex - h2{
+    color: red;
+}
+
+
+for background-color : 
+Ex - h2{
+    background-color: black; (you can use html hex code for example #0000)
+    background-color: #000; (like this.)
+    
+}
+
+
