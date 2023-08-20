@@ -34,7 +34,7 @@ html::-webkit-scrollbar-track{
 header{
     width: 100%;
     height: 50px;
-    background: #020203FE;
+    background: #000;
     color: aliceblue;
     padding: 0px 15px;
     position: fixed;
