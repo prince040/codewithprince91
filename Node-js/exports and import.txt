@@ -1,0 +1,21 @@
+<h2><span style="color: red;">Please see carefull highlighted syntax. And read startng to End.</span> </h2>
+
+<h2>it is first file of JavaScrpt.
+here will be import data from other file. <span style="red">Please see carefull highlighted syntax</span></h2>
+
+<h3>It's rule for import data in other file</h3>
+ <mark> let userData = require('./library.js');</mark>
+console.log(userData.address());
+
+<h3>this is other file to exports data.</h3>
+
+<mark>module.exports={</mark>
+    name:"Prince Nishad",
+    age: 18,
+    dob: 1-1-2003,
+    gender: 'male',
+    phone: 9936755250,
+    address:function(){
+        return "prince"
+    }
+};
