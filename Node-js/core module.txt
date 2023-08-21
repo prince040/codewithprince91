@@ -1,0 +1,39 @@
+
+    <h2>JavaScrpt's all methode , functions is  core module this is Globle module</h2>
+    Example : console.log(), document.write(), alert(), etc. its core module
+
+
+    
+    <h2>There are non Globle core module (imported file is non Globle core module)</h2>
+    Example : Buffer, FileSystem etc. its non Globle core module
+    <h3 style="background-color: blue; color: #fff;">If you want to create file using node js. then you will use FileSystem (fs)</h3>
+    
+    <h3>Example : 
+      rule 1 :  <mark> const anyname = require('fs');
+        anyname.writeFileSync("fileName","content")
+
+      rule 2 :  <mark> const anyname = require('fs').writeFileSync("fileName","content");
+
+      rule 3 : const prince = require('fs').writeFileSync("me.txt","hello world")
+             
+    </mark> </h3>
+      <p style="background-color: red; color: #fff;"> fileName = you want to create file name</p>
+      <p style="background-color: red; color: #fff;"> content = you want to create content</p>
+
+      <h3 style="color: red;">please create file name with extenstion </h3>
+      <p style="background-color: green; color: #fff;"> like this : file.txt etc.</p>
+
+
+     <h2>__dirname</h2>
+     <p> <mark>__dirname </mark> means you want to know file location then you use <mark>__dirname </mark></p>
+     <h3>Example : 
+      <mark>  1 : console.lod(__dirname)
+        1 : console.log('>',__dirname); use this own text</mark>
+     </h3>
+
+     <h2>__filename</h2>
+     <p> <mark>__filename </mark> means you want to know your current file location then you use <mark>__filename </mark></p>
+     <h3>Example : 
+      <mark>  1 : console.lod(__filename)
+        1 : console.log('>',__filename); use this own text</mark>
+     </h3>
