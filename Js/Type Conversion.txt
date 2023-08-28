@@ -1,0 +1,17 @@
+let number = "993645prince";
+let stringToNumber  = Number(number);// => NaN
+
+let string = "Prince";// String
+let stringToNumber2 = Number(string); // => Number
+
+let stringToBoolean = Boolean(string);
+// string value is Empty then output is False
+// if string  value is anything then output is true
+
+let bln = false;
+let booleanToSting  = String(bln)// => String
+
+let booleanToNumber = Number(bln);
+// if bln = true;  Then Output = 1
+// if = bln = false; = then Output = 0
+
