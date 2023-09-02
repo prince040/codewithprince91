@@ -1,5 +1,9 @@
+<h3>.col</h3>
 agar equal width ke do div banana hai to col ka use kr sakte hai
 <mark>ise hamesha row ke andar use karni chahiye</mark>
 ek row ke ham do col denge to vo ek hi row me equal width ke ho jayenge !
 ham jitani row denge utni row ko cover kr lega 
 kyuki row per flex box lagi hoti hai.....
+
+<h3>.w-100</h3>jitane div ke bad break lagani ho .w-100 se laga  sakate hai..
+<h3>.row-cols-2</h3> esme auto col me break lag jati hai 
