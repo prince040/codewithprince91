@@ -1,0 +1,16 @@
+   <h3>.container</h3>
+    this class is max width 1140px
+    mobile devices it  is automatic responsive
+
+   <h3>.container-fluid</h3>
+  container-fluid is 100% width of our PC & Laptop
+
+  this class is 100% width ;
+
+   <h3 >.row</h3>
+    this is already responsive row 
+    ise hame hamesha container ke andar use karte hai 
+    har content ya anything row ke andar hi design hoti hai..
+
+
+
