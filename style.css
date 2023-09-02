@@ -155,7 +155,7 @@ header{
 .alltopics ul li{
   cursor: pointer;
   margin: 3px 0px;
-  color: blue;
+  color: rgb(10, 10, 15);
   font-size: .9rem;
   
 }
