@@ -167,8 +167,28 @@ header{
 .fa-bars{
     display: none;
 }
+.proBtn{
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+    display: none;
+    justify-content: space-around;
+}
+.proBtn button{
+    padding: 3px 15px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    font-size: .95rem;
 
-
+}
+.proBtn button:nth-child(1){
+    border-bottom: 1px solid ;
+   
+}
+.proBtn button:active{
+    border-bottom: 1px solid ;
+}
 
 #loader{
 width: 90%;
